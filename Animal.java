@@ -15,5 +15,9 @@ public class Animal {
         System.out.println(name+" is a dog his breed is " + breed + " his price is " + price);
     }
 
+    public int age(){
+        return 10;
+    }
+
     
 }

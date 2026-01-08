@@ -3,6 +3,8 @@ public class AnimalMain {
         Animal dog = new Animal("BullDog", "Tommy", 200000);
 
         dog.bark();
+       int dogAge = dog.age();
+       System.out.println(dogAge);
     }
     
 }
